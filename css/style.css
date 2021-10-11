@@ -386,6 +386,12 @@ header .navbar a:hover{
     padding: .5rem 0;
 }
 
+.review .box-container .box p{
+    font-size: 1.5rem;
+    color: #eee;
+    padding: 1rem 0;
+}
+
 .order .row{
     padding: 2rem;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
@@ -466,10 +472,38 @@ header .navbar a:hover{
     color: var(--red);
 }
 
+#scroll-top{
+    position: fixed;
+    top:-120%;
+    right:2rem;
+    padding:.5rem 1.5rem;
+    font-size: 4rem;
+    background:var(--red);
+    color:#fff;
+    border-radius: .5rem;
+    transition: 1s linear;
+    z-index: 1000;
+}
+  
+#scroll-top.active{
+    top:calc(100% - 12rem)
+}
 
-
-
-
+.loader-container{
+    position: fixed;
+    top:0; left:0;
+    z-index: 10000;
+    background:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width:100%;
+  }
+  
+  .loader-container.fade-out{
+    top:-120%;
+  }
 
 
 
@@ -525,6 +559,7 @@ header .navbar a:hover{
     html{
         font-size: 50%;
     }
+
     .order .row form .inputBox input{
         width: 100%;
     }
