@@ -321,6 +321,17 @@ header .navbar a:hover{
     object-fit: cover;
 }
 
+.gallery .box-container .box .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255,.8);
+    padding: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+}
 
 
 
