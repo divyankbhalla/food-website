@@ -380,6 +380,12 @@ header .navbar a:hover{
     padding: .5rem 0;
 }
 
+.review .box-container .box .stars i{
+    font-size: 2rem;
+    color: var(--red);
+    padding: .5rem 0;
+}
+
 
 
 
